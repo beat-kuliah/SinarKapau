@@ -7,7 +7,7 @@
     <div class="login-box-body">
         <div class="login-logo">
             <a href="{{ url('/') }}">
-                <img src="{{ url($setting->path_logo) }}" alt="logo.png" width="100">
+                <img src="{{ URL::to('/img/logoSK.png') }}" alt="logo.png" width="100">
             </a>
         </div>
 
